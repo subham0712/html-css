@@ -1,1 +1,1 @@
-Lets lear html and css
+Lets learn html and css
