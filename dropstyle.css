@@ -1,0 +1,245 @@
+body{
+	padding: 0px;
+	margin:0px;
+	background-image: url("mountain.jpg");
+	background-size: cover;
+}
+.nav{
+	
+
+	width: 100%;
+	background-color:E70D56;
+
+
+	color: #fff;
+}
+.menu{
+
+	line-height: 45px;
+
+	font-weight: 700;
+
+}
+.nav ul{
+	z-index:1000;
+
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+
+}
+.nav .menu .item{
+
+
+	display: inline-block;
+	position: relative;
+
+}
+
+.nav .menu .item a{
+	padding: 0px 35px;
+	cursor: pointer;
+	text-decoration:none;
+	color: white;
+	display: block;
+}
+.sub{
+	text-align: center;
+	text-transform: none;
+	display:none;
+	position: absolute;
+	width: 170px;
+	background-color: grey;
+}
+.item:hover .sub{
+	display: block;
+}
+
+.item :hover{
+	background-color: purple;
+
+}
+.menu:hover ul{
+	background-color: black;
+}
+#home {
+	background-color: purple;
+}
+
+
+#hello {
+    width: 100%;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+#one{
+	background-color: transparent;
+	border:none;
+	font-weight: bold;
+	line-height: 40px;
+	border:3px solid white;
+	background-color: blue;
+	color: orange;
+	    margin-left: 526px;
+    margin-top: 10px;
+
+
+
+}
+#two{
+
+
+	background-color: transparent;
+	color: orange;
+	border:none;
+	font-weight: bold;
+	line-height: 40px;
+	border:3px solid white;
+	background-color: blue;
+	width:100px;
+}
+ #button1 {
+ 	font-size: 20px;
+	float:right;
+	margin-right: 10	px;
+	background-color:E70D56;
+	position: relative;
+	top:-38px;
+	border-style: 1px solid white;
+}
+#button2{
+
+	font-size: 20px;
+	float:right;
+	margin-right: 10px;
+	background-color:white;
+	position: relative;
+	top:-38px;
+	
+	
+	border-style: 1px solid white;
+}
+.container {
+  column-count: 3;
+  color: white;
+  padding-top: 40px;
+
+} 
+#para{
+	padding-top: 15px;
+
+}
+
+
+ {box-sizing: border-box}
+
+/* Add padding to containers */
+.container2 {
+  padding: 16px;
+   border:1px solid white;
+   margin-left: 468px;
+       margin-right: 398px;
+
+
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  color: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  color: white;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  background-color: blue;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+h1{
+	color: orange;
+
+}
+div{
+
+	color: white;
+}
+
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:-589px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+.bottom{
+	width: 1452px;
+    height: 150px;
+    top: -1028px;
+		
+}
+.top{
+	width: 1452px;
+    height: 150px;
+    top: -1028px;
+	
+
+}
+div #cf{
+	       margin-top: -136px;
+    margin-right: 243px;
+}
+}
+}
+
+
